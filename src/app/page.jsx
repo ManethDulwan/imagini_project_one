@@ -1,10 +1,21 @@
+'use client';
 import Image from "next/image";
 import User from "./icons/user.svg";
 import Search from "./icons/search.svg";
+import { useState } from "react";
 export default function Home() {
+  const [searchQuery, setSearchQuery] = useState('');
+  const handleSearch = () => {
+    console.log('Searching for:', searchQuery);
+  };
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      handleSearch();
+    }
+  };
   return (
     <div>
-      <nav className=" text-white p-2 ">
+      <nav className=" absolute top-0 left-0 right-0 text-white p-2 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
             <span className="self-center text-2xl font-semibold whitespace-nowrap ">Imagini</span>
@@ -29,8 +40,14 @@ export default function Home() {
           </div>
         </div>
       </nav>
-      <div className=" absolute left-0 right-0 top-0 bottom-0 flex justify-center items-center">
-      <input type="search" className="text-black p-3 pl-5 rounded-[25px] sm:w-[80%] md:w-[70%] lg:w-[50%]" placeholder="Search here..."/>
+      <div className="h-screen flex items-center justify-center">
+        <div className="sm:w-80 md:w-72 lg:w-1/2 flex justify-center">
+          <input type="search"          onChange={(e) => setSearchQuery(e.target.value)}
+          onKeyPress={handleKeyPress} value={searchQuery} className="text-black p-3 pl-5 pr-12 rounded-full w-full" placeholder="Search here..." />
+          <div className="flex justify-end"  onClick={handleSearch}>
+            <Image src={Search} className=" absolute mr-3  mt-2 w-8 h-8" alt="search button" />
+          </div>
+        </div>
       </div>
     </div>
   );
