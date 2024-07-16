@@ -53,6 +53,12 @@ export default function Results() {
                     </button>
                 </div>
             </nav>
+            <div className="flex  ml-10">
+                <h3 className="ml-5 mr-5">All</h3>
+                <h3 className="ml-5 mr-5">Web</h3>
+                <h3 className="ml-5 mr-5">Business</h3>
+                <h3 className="ml-5 mr-5">Gov</h3>
+            </div>
             <div class="w-[90%] flex flex-wrap ml-10">
                 <div class="w-full md:w-2/3  p-4 text-black">
                     <div className="flex mt-5">
