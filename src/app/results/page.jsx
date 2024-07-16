@@ -101,7 +101,7 @@ export default function Results() {
                     </div>
                     <div class="w-full md:w-2/3   text-white">
                         <div className="flex">
-                            <a href="#" class="text-blue-400 font-bold text-[20px]">World Environment Day</a><a href="#" className="bg-green-500 rounded-full h-1 w-1 flex items-center justify-center p-1 mt-3 ml-3"></a><br />
+                            <a href="#" class="text-blue-400 font-bold text-[20px]">World Environment Day</a><a href="#" className="bg-red-500 rounded-full h-1 w-1 flex items-center justify-center p-1 mt-3 ml-3"></a><br />
                         </div>
                         <p class="mt-3 mb-5">WEBWhat is World Environment Day? Led by the United Nations Environment Programme (UNEP) and held annually on 5 June since 1973, World Environment Day is the largest global platform for...</p>
                         <div class="w-full flex flex-wrap">
