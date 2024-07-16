@@ -75,7 +75,7 @@ export default function Results() {
             </nav>
             <div class="w-full flex flex-wrap bg-blur">
                 <div class="w-full md:w-2/3  p-4 text-white">
-                    <div className="flex">
+                    <div className="flex mt-5">
                         <a href="#" class="text-blue-400 font-bold text-[20px]">World Environment Day</a><a href="#" className="bg-green-500 rounded-full h-1 w-1 flex items-center justify-center p-1 mt-3 ml-3"></a><br />
                     </div>
                     <p class="mt-3 mb-5">WEBWhat is World Environment Day? Led by the United Nations Environment Programme (UNEP) and held annually on 5 June since 1973, World Environment Day is the largest global platform for...</p>
@@ -99,9 +99,8 @@ export default function Results() {
                             <p class="mt-3 mb-5">Saudi Arabia strives to regreen deserts to tackle drought and land degradation. In …</p>
                         </div>
                     </div>
-                    <div class="w-full md:w-2/3   text-white">
-                        <div className="flex">
-                            <a href="#" class="text-blue-400 font-bold text-[20px]">World Environment Day</a><a href="#" className="bg-red-500 rounded-full h-1 w-1 flex items-center justify-center p-1 mt-3 ml-3"></a><br />
+                        <div className="flex mt-8">
+                            <a href="#" class="text-blue-400 font-bold text-[20px]">World Environment Day</a><a href="#" className="bg-red-500 rounded-full h-1 w-1 flex items-center justify-center p-1 mt-3 ml-3"></a><h6 className="bg-green-500 mt-1 ml-1 mr-1 pl-1 pr-2 rounded-[10px]">business</h6><br />
                         </div>
                         <p class="mt-3 mb-5">WEBWhat is World Environment Day? Led by the United Nations Environment Programme (UNEP) and held annually on 5 June since 1973, World Environment Day is the largest global platform for...</p>
                         <div class="w-full flex flex-wrap">
@@ -124,10 +123,8 @@ export default function Results() {
                                 <p class="mt-3 mb-5">Saudi Arabia strives to regreen deserts to tackle drought and land degradation. In …</p>
                             </div>
                         </div>
-                    </div>
                 </div>
-
-                <div class="w-full md:w-1/3  p-4 text-white text-center hidden md:block">
+                <div class="w-full md:w-1/3  p-4 text-white text-center hidden md:block mt-5">
                     <Image src={en_img} alt="image" width="300" height="300" class="ml-auto mr-auto" />
                     <p class="mt-5 ml-[5%] mr-[5%]">World Environment Day is celebrated annually on 5 June and encourages awareness and action for the protection of the environment. It is supported by many non-governmental organiz…<a class="text-blue-800" href="https://en.wikipedia.org/wiki/World_Environment_Day">Wikipedia</a></p>
                 </div>
