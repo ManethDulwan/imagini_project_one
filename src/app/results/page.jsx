@@ -30,7 +30,7 @@ export default function Results() {
                             <Image className="w-8 h-8 rounded-full cursor-pointer" src={User} alt="user photo" />
                         </button>
                     </div>
-                    <div className=" absolute left-36 right-0">
+                    <div className=" absolute left-44 right-0">
                         <div className="w-full max-w-lg md:max-w-md lg:max-w-2xl flex justify-center relative">
                             <input
                                 type="search"
@@ -110,9 +110,11 @@ export default function Results() {
                         </div>
                     </div>
                 </div>
-                <div class="w-full md:w-1/3  p-4 text-black text-center hidden md:block mt-5 ">
-                    <Image src={en_img} alt="image" width="300" height="300" class="ml-auto mr-auto" />
-                    <p class="mt-5 ml-[5%] mr-[5%]">World Environment Day is celebrated annually on 5 June and encourages awareness and action for the protection of the environment. It is supported by many non-governmental organiz…<a class="text-blue-800" href="https://en.wikipedia.org/wiki/World_Environment_Day">Wikipedia</a></p>
+                <div class="w-full md:w-1/3  p-4 text-black text-center hidden md:block mt-5  ">
+                <div className="bg-gray-200  rounded-[15px] pt-3 pb-3">
+                <Image src={en_img} alt="image" width="300" height="300" class="ml-auto mr-auto" />
+                <p class="mt-5 ml-[5%] mr-[5%]">World Environment Day is celebrated annually on 5 June and encourages awareness and action for the protection of the environment. It is supported by many non-governmental organiz…<a class="text-blue-800" href="https://en.wikipedia.org/wiki/World_Environment_Day">Wikipedia</a></p>
+                </div>
                 </div>
             </div>
         </div>
