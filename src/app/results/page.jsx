@@ -56,7 +56,7 @@ export default function Results() {
                     </button>
                 </div>
             </nav>
-            <div className="flex font-bold text-[15px]  ml-10">
+            <div className="flex font-bold text-[15px] mt-5  ml-10">
                 <h3 className="ml-5 mr-5 border-b-2 border-blue-500">All</h3>
                 <h3 className="ml-5 mr-5 border-b-2 border-gray-300">Web</h3>
                 <h3 className="ml-5 mr-5 border-b-2 border-gray-300">Business</h3>
