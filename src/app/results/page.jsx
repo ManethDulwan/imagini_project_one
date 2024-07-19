@@ -47,6 +47,7 @@ export default function Results() {
                             </div>
                         </div>
                     </div>
+                    <h1 className=" absolute right-[14%] border pl-3 pr-3 bg-blue-100 p-[5px]">Sign in</h1>
                     <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -88,7 +89,7 @@ export default function Results() {
                         </div>
                     </div>
                     <div className="flex mt-8">
-                        <a href="#" class="text-blue-400 font-bold text-[20px]">World Environment Day</a><a href="#" className="bg-red-500 rounded-full h-1 w-1 flex items-center justify-center p-1 mt-3 ml-3"></a><h6 className="bg-green-500 text-[13px] text-white mt-1 mb-1 ml-1 mr-1 pl-1 pr-1 rounded-[7px]">business</h6><br />
+                        <a href="#" class="text-blue-400 font-bold text-[20px]">World Environment Day</a><a href="#" className="bg-red-500 rounded-full h-1 w-1 flex items-center justify-center p-1 mt-3 ml-3"></a><h6 className="bg-green-500 text-[13px] text-white mt-1 mb-1 ml-3 mr-1 pl-1 pr-1 rounded-[7px]">business</h6><br />
                     </div>
                     <p class="mt-3 text-[13px] mb-5">WEBWhat is World Environment Day? Led by the United Nations Environment Programme (UNEP) and held annually on 5 June since 1973, World Environment Day is the largest global platform for...</p>
                     <div class="w-full flex flex-wrap">
