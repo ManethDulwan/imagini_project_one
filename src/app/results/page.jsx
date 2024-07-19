@@ -47,7 +47,7 @@ export default function Results() {
                             </div>
                         </div>
                     </div>
-                    <h1 className=" absolute right-[14%] border pl-3 pr-3 bg-blue-100 p-[5px]">Sign in</h1>
+                    <h1 className=" absolute right-[14%] border pl-3 pr-3 bg-gray-100 p-[5px]">Sign in</h1>
                     <button data-collapse-toggle="navbar-search" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-search" aria-expanded="false">
                         <span class="sr-only">Open main menu</span>
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -117,6 +117,12 @@ export default function Results() {
                     <div className="border  rounded-[15px] pt-3 pb-3">
                         <Image src={en_img} alt="image" width="300" height="300" class="ml-auto mr-auto" />
                         <p class="mt-5 ml-[5%] text-[13px] text-left mr-[5%]">World Environment Day is celebrated annually on 5 June and encourages awareness and action for the protection of the environment. It is supported by many non-governmental organiz…<a class="text-blue-800" href="https://en.wikipedia.org/wiki/World_Environment_Day">Wikipedia</a></p>
+                        <p class="mt-5 ml-[5%] text-[13px] text-left mr-[5%]">The event has been led by the United Nations Environment Programme (UNEP) since its inception in 1973. In 2024, World Environment Day is being hosted by Saudi Arabia, with a focus on land restoration, desertification, and drought resilience<a class="text-blue-800" href="https://en.wikipedia.org/wiki/World_Environment_Day">land restoration, desertification, and drought resilience</a></p>
+                    </div>
+                    <div className=" flex justify-center">
+                        <h1 className=" rounded-[10px] text-[13px] ml-5 mr-5 shadow border p-[5px] m-[5px] bg-gray-100">Environment Day</h1>
+                        <h1 className=" rounded-[10px] text-[13px] ml-5 mr-5 shadow border p-[5px] m-[5px] bg-gray-100">Trees</h1>
+                        <h1 className=" rounded-[10px] text-[13px] ml-5 mr-5 shadow border p-[5px] m-[5px] bg-gray-100">Forests</h1>
                     </div>
                 </div>
             </div>
