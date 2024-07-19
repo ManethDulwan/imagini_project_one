@@ -2,6 +2,7 @@
 import Image from "next/image";
 import User from "../icons/user.svg";
 import Search from "../icons/search.svg";
+import MIC from "../icons/mic.png";
 import { useState } from "react";
 import en_img from "../images/th.webp"
 import { useRouter } from 'next/navigation';
@@ -37,10 +38,11 @@ export default function Results() {
                                 onChange={(e) => setSearchQuery(e.target.value)}
                                 onKeyPress={handleKeyPress}
                                 value={searchQuery}
-                                className=" border text-black p-3 pl-5 pr-12 rounded-full w-full ml-[5%] mr-[5%]"
+                                className="shadow border text-black p-3 pl-5 pr-12 rounded-full w-full ml-[5%] mr-[5%]"
                                 placeholder="Search here..."
                             />
                             <div className="absolute inset-y-0 right-[5%] flex items-center pr-3 " onClick={handleSearch}>
+                                <Image src={MIC} className="w-8 h-8 p-[4px] mr-2" alt="search button" />
                                 <Image src={Search} className="w-8 h-8 p-1" alt="search button" />
                             </div>
                         </div>
@@ -53,7 +55,7 @@ export default function Results() {
                     </button>
                 </div>
             </nav>
-            <div className="flex  ml-10">
+            <div className="flex font-bold text-[15px]  ml-10">
                 <h3 className="ml-5 mr-5 border-b-2 border-blue-500">All</h3>
                 <h3 className="ml-5 mr-5 border-b-2 border-gray-300">Web</h3>
                 <h3 className="ml-5 mr-5 border-b-2 border-gray-300">Business</h3>
